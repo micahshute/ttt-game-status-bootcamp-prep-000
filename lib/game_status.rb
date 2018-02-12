@@ -6,24 +6,19 @@ end
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [[0,1,2],
                     [3,4,5],
-<<<<<<< HEAD
                     [6,7,8],
                     [0,3,6],
                     [1,4,7],
                     [2,5,8],
                     [0,4,8],
                     [2,4,6]]
-=======
-                    [6,7,8]
-                    ]
+
 def get_combos(numRows, numCols)
   combos = [[]]
   combo = []
   numCols.times do 
     
 end
-
->>>>>>> ce5e15c8ab3624b23db3850f6a6916bd0159ba72
 
 
 def get_locations(board, player = "X")
