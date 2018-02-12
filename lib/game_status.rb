@@ -13,13 +13,6 @@ WIN_COMBINATIONS = [[0,1,2],
                     [0,4,8],
                     [2,4,6]]
 
-def get_combos(numRows, numCols)
-  combos = [[]]
-  combo = []
-  numCols.times do 
-    
-end
-
 
 def get_locations(board, player = "X")
   locations = []
