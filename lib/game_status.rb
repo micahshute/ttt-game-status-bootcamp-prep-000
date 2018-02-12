@@ -35,7 +35,6 @@ end
 
 def won?(board) 
   x_locations = get_locations(board)
-<<<<<<< HEAD
   y_locations = get_locations(board, "O")
   locations = [x_locations,y_locations]
   WIN_COMBINATIONS.each do |combination|
@@ -69,7 +68,3 @@ def winner(board)
   return winLocation ? ((get_locations(board).detect{|a| a == winLocation[0]} != nil && get_locations(board).detect{|a| a == winLocation[1]} != nil && get_locations(board).detect{|a| a == winLocation[2]} != nil) ? "X" : "O")  : nil
 end
 
-=======
-  y_locations = get_locaitons(board, "Y")
-  
->>>>>>> ce5e15c8ab3624b23db3850f6a6916bd0159ba72
